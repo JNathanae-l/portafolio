@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo.png" alt="logo alura">
+    </header>
+
+    <div class="flex">
+        <div class="areas-primarias">
+            <div class="area-insercion">
+                <section class="area-texto">
+                    <textarea autofocus name="textarea" id="textarea" placeholder="Ingrese el texto aqui"></textarea>
+                    <p class="info">&#9432 Solo letras minúsculas y sin acentos</p>
+                </section>
+
+                <section class="area-botones">
+
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Descencriptar</button>
+
+                </section>
+            </div>
+
+        </div>
+
+        <div class="areas-resultado">
+            <div class="card">
+                <section class="area-encriptacion">
+                    <p class="texto-resultado" id="resultado"></p>
+                </section>
+                <img class="img-muneco" id="img-muneco" src="img/Muñeco.png" alt="Muñeco mensaje">
+                <p class="texto-disponible" id="texto-disponible">Ningún mensaje fue encontrado</p>
+                <p class="texto-disponible-secundario" id="texto-disponible-secundario">Ingrese el texto que desees
+                    encriptar o desencriptar</p>
+                <button id="copiar">Copiar</button>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+        <a href="https://www.linkedin.com/in/jesus-nathanael-monroy-lazcano-61b1a8224/"><img class="img-footer" src="img/logo_linkedin.png"></a>
+        <a href="https://github.com/JNathanae-l"><img class="img-footer" src="img/logo_git.png"></a> 
+        <p class="copyright">&copy Copyright Nathanael ML - 2023</p>
+    </footer>
+
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
